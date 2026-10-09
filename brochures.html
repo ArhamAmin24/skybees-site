@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brochures | Skybees</title>
-  <meta name="description" content="Download Skybees brochures.">
+  <title>Brochures | Skybees Technologies</title>
+  <meta name="description" content="View and download Skybees brochures and product catalogues.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,17 +17,16 @@
 
   <header class="site-header">
     <div class="wrap bar">
-      <a class="brand" href="index.html">
-        <img src="favicon.svg" alt="" width="40" height="40">
-        <span><span class="name">Skybees</span><span class="tag">[Tagline, e.g. "Solutions Since 20XX"]</span></span>
+      <a class="brand" href="index.html" aria-label="Skybees Technologies home">
+        <img src="images/skybees-logo.png" alt="Skybees Technologies Pvt. Ltd." width="170" height="46" style="height:46px;width:auto">
       </a>
       <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">Menu</button>
       <nav id="mainNav" aria-label="Main">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#products">Products</a></li>
           <li><a href="index.html#services">Services</a></li>
           <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#mission">Our mission</a></li>
           <li><a href="brochures.html" aria-current="page">Brochures</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
@@ -39,34 +38,33 @@
     <section class="page-head">
       <div class="wrap">
         <h1>Brochures</h1>
-        <p>Download product and company information to share with your team.</p>
+        <p>View a PDF in a new tab, or download it to share with your team.</p>
       </div>
     </section>
 
     <!--
       HOW TO ADD A BROCHURE
       1. Put the PDF in the "brochures" folder, e.g. brochures/my-product.pdf
+         (use lowercase names with no spaces, and keep each file under 100 MB for GitHub).
       2. Copy one <div class="brochure"> block, paste it after the last one,
-         and change the title, description and href.
-      To link to a file hosted elsewhere, use the full https:// address instead.
+         and change the title, description and both href values.
     -->
     <section class="section">
       <div class="wrap">
         <div class="section-head"><h2>Company</h2></div>
         <div class="grid three">
-          <div class="brochure"><span class="badge">PDF</span><h3>Company profile</h3><p>Who we are and what we supply.</p><a class="dl" href="brochures/company-profile.pdf" download>Download</a></div>
-          <div class="brochure"><span class="badge">PDF</span><h3>[Other company document]</h3><p>[Short description]</p><a class="dl" href="brochures/company-document.pdf" download>Download</a></div>
+          <div class="brochure"><span class="badge">PDF</span><h3>Company profile</h3><p>Who we are, what we do, our capabilities and supported platforms.</p><a class="dl" href="brochures/company-profile.pdf" target="_blank" rel="noopener">View</a> <a class="dl" href="brochures/company-profile.pdf" download>Download</a></div>
         </div>
       </div>
     </section>
 
     <section class="section alt">
       <div class="wrap">
-        <div class="section-head"><h2>Products</h2></div>
+        <div class="section-head"><h2>Product catalogues</h2></div>
         <div class="grid three">
-          <div class="brochure"><span class="badge">PDF</span><h3>[Product brochure 1]</h3><p>[Short description]</p><a class="dl" href="brochures/product-1.pdf" download>Download</a></div>
-          <div class="brochure"><span class="badge">PDF</span><h3>[Product brochure 2]</h3><p>[Short description]</p><a class="dl" href="brochures/product-2.pdf" download>Download</a></div>
-          <div class="brochure"><span class="badge">PDF</span><h3>[Product brochure 3]</h3><p>[Short description]</p><a class="dl" href="brochures/product-3.pdf" download>Download</a></div>
+          <div class="brochure"><span class="badge">PDF</span><h3>Aviation Catalogue</h3><p>Aviation spares and support for aircraft and helicopter platforms.</p><a class="dl" href="brochures/aviation-catalogue.pdf" target="_blank" rel="noopener">View</a> <a class="dl" href="brochures/aviation-catalogue.pdf" download>Download</a></div>
+          <div class="brochure"><span class="badge">PDF</span><h3>Tactical Equipment Catalogue</h3><p>Counter-terrorism gear for police, special forces and tactical operations.</p><a class="dl" href="brochures/tactical-equipment.pdf" target="_blank" rel="noopener">View</a> <a class="dl" href="brochures/tactical-equipment.pdf" download>Download</a></div>
+          <div class="brochure"><span class="badge">PDF</span><h3>Counter-UAV Systems Catalogue</h3><p>Drone detection, positioning and countermeasure systems.</p><a class="dl" href="brochures/counter-uav-systems.pdf" target="_blank" rel="noopener">View</a> <a class="dl" href="brochures/counter-uav-systems.pdf" download>Download</a></div>
         </div>
       </div>
     </section>
@@ -82,13 +80,13 @@
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div>
-        <a class="brand" href="index.html"><img src="favicon.svg" alt="" width="36" height="36"><span><span class="name">Skybees</span></span></a>
-        <p>[One sentence about Skybees.]</p>
+        <a class="brand" href="index.html" aria-label="Skybees Technologies home"><img src="images/skybees-logo.png" alt="Skybees Technologies Pvt. Ltd." width="170" height="46" style="height:46px;width:auto;background:#fff;padding:6px 10px;border-radius:6px"></a>
+        <p>Built To Scale</p>
       </div>
       <div>
         <h3>Company</h3>
         <ul>
-          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#about">Who we are</a></li>
           <li><a href="index.html#mission">Our mission</a></li>
           <li><a href="index.html#process">How we work</a></li>
         </ul>
@@ -96,7 +94,6 @@
       <div>
         <h3>Explore</h3>
         <ul>
-          <li><a href="index.html#products">Products</a></li>
           <li><a href="index.html#services">Services</a></li>
           <li><a href="brochures.html">Brochures</a></li>
           <li><a href="index.html#contact">Contact</a></li>
@@ -105,13 +102,13 @@
       <div>
         <h3>Contact</h3>
         <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+920000000000">+92 000 0000000</a></li>
-          <li>[Address]</li>
+          <li><a href="mailto:info@skybees.com.pk">info@skybees.com.pk</a></li>
+          <li><a href="tel:+923323033307">+92 332 3033307</a></li>
+          <li>Alpha Techno Square NASTP, Old Air Port Road, Chaklala Cantt, Rawalpindi, Punjab - 46000</li>
         </ul>
       </div>
     </div>
-    <div class="wrap footer-base">&copy; <span id="year">2026</span> Skybees. All rights reserved.</div>
+    <div class="wrap footer-base">&copy; <span id="year">2026</span> Skybees Technologies Pvt. Ltd. All rights reserved.</div>
   </footer>
 
   <script src="js/main.js"></script>
